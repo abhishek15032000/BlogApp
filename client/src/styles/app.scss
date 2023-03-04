@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+  variales
+*/
+$lightGreen:#b9e7e7;
+.app{
+    display: flex;
+    justify-content: center;
+    .link{
+        text-decoration: none;
+        color:inherit;
+    }
+    .container{
+        width:1024px;
+    }
+
+}
+
+@import './login';
+@import './register';
+@import './navbar';
+@import './footer';
+@import './home';
+@import './singlePage';
+@import './menu';
+@import './write';

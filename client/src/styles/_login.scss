@@ -1,0 +1,49 @@
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: $lightGreen;
+
+    h1{
+        font-size: 20px;
+        color:teal;
+        margin-bottom:20px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        padding:40px;
+        width:300px;
+        gap:20px;
+        background-color: white;
+
+        input{
+            padding:10px;
+            border:none;
+            border-bottom:1px solid gray
+        }
+
+        button{
+            padding:10px;
+            border:none;
+            background-color: teal;
+            cursor:pointer;
+            color:white;
+        }
+
+        span{
+            font-size:13px;
+            text-align: center;
+        }
+        
+        p{
+            text-align: center;
+            font-size: 13px;
+            color:red;
+        }
+    }
+}
